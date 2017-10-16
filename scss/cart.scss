@@ -1,0 +1,113 @@
+@import "main.scss";
+
+.header{
+    width:100%;
+    height:50px;
+    @include flexBox;
+    @include flex-direction('row');
+    .back{
+       width:50px;
+       height:50px;
+       text-align: center;
+        font:15px/50px ''; 
+      
+    }
+    p{
+         text-align: center;
+       font:20px/50px ''; 
+       flex: 1;
+    }
+    #home{
+         width:50px;
+       height:50px;
+       text-align: center;
+       font:15px/50px ''; 
+    }
+    }
+#content{
+    width:100%;
+    height:100%;
+    background:#f4f4f4;
+    padding-bottom: 50px;
+     #cartMain{
+        width:90%;
+        height:auto;
+        margin:10px auto;
+        li{
+            width:100%;
+            height:150px;
+            margin-bottom:10px;
+            margin-top:20px;
+            border-top:1px solid #999;
+            border-bottom:1px solid #999;
+            position: relative;
+            img{
+                margin-top:10px;
+                margin-right:10px;
+                width:20%;
+                height:100px;
+                float: left;
+            }
+            p{  margin-top:10px;
+                 float: left;
+                 width:70%;
+                 font:15px/20px '' ;
+            }
+            ol{
+                 width:70%;
+                 float: right;
+                 span{
+                       font:12px/15px '' ;
+                       
+                       margin-right: 10px;
+                 }
+               
+            }
+            h1{
+                font:20px/30px '' ;
+                color:#FF6666;
+            }
+            button{
+                width:80px;
+                height:30px;
+              
+                position: absolute;
+                bottom:10px;
+                right:10px;
+            }
+        }
+        li:last-child{
+            margin-bottom:50px;
+        }
+        
+    }
+   
+}
+#div-fooder{
+    width:100%;
+    height:40px;
+    position: fixed;
+    bottom:50px;
+    border-top:1px solid #e5e5e5;
+    background:#fff;
+     h2{
+            min-width:120px;
+            float:right;
+            margin-right: 20px;
+            font:15px/40px '';
+        }
+        #sum{
+             float:right;
+            margin-right: 20px;
+            width:100px;
+            height:30px;
+            background:#FF6666;
+            color: #fff;
+            border: none;
+            outline: auto;
+            border-radius: 4px;
+             margin-top: 5px;
+        
+        }
+}
+

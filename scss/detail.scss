@@ -1,0 +1,239 @@
+@import "main.scss";
+
+body{
+   
+}
+    #fixed-cart{
+        width:35px;
+        height:35px;
+   
+
+        position: fixed;
+        right:5px;
+        bottom:130px;
+        overflow:hidden;
+        z-index: 999;
+        img{
+             width:35px;
+             height:70px;
+             
+        }
+    }    
+
+    #homeBanners {
+        width: 100%;
+        height:400px;
+       #homeWrapper{
+            width:90%;
+            height:400px;
+        
+    #imgDiv{
+        height:400px;
+        width: 90% !important;
+        background:#fff;
+     
+        img{
+             height:400px;
+             width:100%;
+        }
+        
+    } 
+    
+    }
+    .swiper-pagination{
+        width: 10%;
+        height:16px;
+        font-size:10px;
+        line-height: 16px;
+        background:rgba(173,168,148,0.7);
+        left:80%;
+        color:#fff ;
+        border-radius: 8px;      
+    }
+   
+
+
+    }
+ #tittle{
+     width:90%;
+     height:auto;
+     margin:5px auto;
+     p{ width:100%;
+   
+         font:15px/20px '';
+     }
+     span{
+         font:18px/40px '';
+         color: #ff6699;
+     }
+ }
+  
+.footer{
+    ul{
+        li{
+            text-align: center;
+            font:13px/50px '';
+            color:#bababa;
+        }
+        li:nth-child(4){
+            
+            background:yellow;
+            color: #000;
+            
+        }
+        li:nth-child(5){
+      
+            background:#ff6699;
+            color: #fff;
+        }
+    }
+    
+}
+
+#xiaoliang{
+    width:100%;
+    height:auto;
+    border-bottom: 1px solid #bababa;
+   
+    span{
+        font:12px/30px '';
+        
+        color:#bababa;
+        margin-right:20px; 
+        margin-left:10px;
+    }
+}
+#main-Img{
+     width:100%;
+    height:auto;
+    img{
+        width:100%;
+    }
+}
+#mask{
+    width:100%;
+    z-index: 99;
+    height:370px;
+    background:#fff;
+    position:fixed;
+    bottom:0; 
+    padding:10px;
+     overflow: auto !important;
+    display: none;
+   #mask-header{
+       width:100%;
+       height:140px;
+       border-bottom:1px solid #999;
+  
+   img{
+       width:25%;
+       height:130px;
+        float:left;
+       
+   }
+   .right{
+      
+       float:right;
+       width:70%;
+       position:relative;
+        p{
+           width:80%;
+           font:13px/20px '';
+           color:#999;
+           
+       }
+       i{
+           font:20px/30px '';
+           color:#FF6666;
+           display: block;
+       }
+       span{
+            font:12px/20px '';
+            color:#999;
+       }
+       b{
+          display: block;
+          position: absolute;
+          top:0px;
+          right:5px;
+          width:30px;
+          height:30px;
+          font:35px/30px ''; 
+          color:#999;
+       }
+   }
+       
+   }
+   #mask-content{
+       width:100%;
+       height:auto;
+       ol{
+           width:100%;
+           line-height:30px;
+       }
+       #yanse{
+           width:100%;
+           height: auto;
+           li{
+                display: inline-block;
+               padding:0 15px;
+               margin-right:10px;
+               font:12px/25px '';
+               background:#f8f8f8;
+               border-radius: 4px;
+           }
+           
+       }
+       #chicun{
+           width:100%;
+           height: auto;
+           li{
+                display: inline-block;
+               padding:0 15px;
+               margin-right:10px;
+               font:12px/25px '';
+               background:#f8f8f8;
+               border-radius: 4px;
+           }
+           
+       }
+       #shuliang{
+           width:100%;
+           height: auto;
+           li{
+                display: inline-block;
+               padding:0 15px;
+               margin-right:10px;
+               font:12px/25px '';
+               background:#f8f8f8;
+               border-radius: 4px;
+               margin-bottom: 50px;
+               
+           }
+           
+       }
+      
+      .active{
+          color:red;
+      }
+       .actives{
+          color:red;
+      }
+
+      
+   }
+   
+    button{
+           width:100%;
+           height:40px;
+           background:#ff6699;
+           color: #fff;
+           text-align: center;
+           font:15px/40px '';
+           border: none;
+           position:fixed;
+           bottom: 0;
+           left:0;
+       }
+}
+

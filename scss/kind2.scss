@@ -1,0 +1,54 @@
+@import "main.scss";
+
+#headerUl{
+    width:100%;
+    height:40px;
+    background:#fff;
+    @include flexBox;
+    @include flex-direction('row');
+    position: fixed;
+    top:0;
+    li{
+         flex: 1;
+         @include flex-center;
+         font-size: 15px;
+         
+    }
+    .active{
+        color:#ff6699;
+    }
+}
+#contentUl{
+   width:100%;
+    height:auto;
+    li{
+        width:50%;
+         height:auto;
+         text-align: center;
+         background:#fff;
+         float:left;
+         margin-bottom:10px;
+         img{
+             width:95%;
+             height:200px;            
+         }
+         p{
+             font:12px/20px '';
+              width:80%;
+              margin:0 auto;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+             
+         }
+         span{
+             font:15px/30px '';
+             color: #ff6699;
+             display: block;
+         }
+         i{
+             font:12px/0px '';
+              color: #bababa;
+         }
+    }
+}

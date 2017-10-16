@@ -1,0 +1,26 @@
+@charset "utf-8";
+@import "main.scss";
+/* CSS Document */
+
+
+
+
+.row{
+    width:100%;
+    height:auto;
+    input{
+        width:100%;
+        height:30px;
+        margin:10px 10%;
+        border:none;
+        outline: none;
+        border-bottom: 1px solid #999;
+        text-indent: 10px;
+    }
+    #sel_city{
+        width:100%;
+
+         margin:10px 10%;
+    }
+}
+
